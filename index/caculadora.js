@@ -6,5 +6,5 @@ function calcularDesconto(){
     let valorDesconto = (valorOriginal * desconto) / 100;
     let valorFinal = valorOriginal - valorDesconto;
     //Saida
-    document.getElementById("resultado").textContent = "Valor final: " + valorFinal;
+    document.getElementById("resultado").textContent = "Preço final com desconto: " + valorFinal;
 }
